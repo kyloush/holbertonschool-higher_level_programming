@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-ldo = number %10
+ldo = abs(number) %10
 if number < 0: 
     ldo = -ldo
 if ldo > 5:
