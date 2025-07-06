@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def islower(c):
-    return 'a' <= c <= 'z'
+    return ord(c) >= 97 and ord(c) <= 122
 
 
 islower = __import__('7-islower').islower
